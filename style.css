@@ -167,13 +167,19 @@ img[alt="pinoy-polvoron-logo"]{
     height: 450px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: #f1f1f1;
-
     align-items: center;
     padding: 8px 32px;
 }
+.review p{
+    font-size:0.9rem;
+    text-align: justify;
+    font-style: italic;
+}
 
 .review img{
+    margin-top: 30px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -184,4 +190,12 @@ img[alt="pinoy-polvoron-logo"]{
     color: red;
     font-size: 1.2rem;
     font-weight: bolder;
+}
+
+.stars{
+    margin: 10px;
+}
+
+.stars i{
+    color: gold !important;
 }
