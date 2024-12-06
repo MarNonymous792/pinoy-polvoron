@@ -84,7 +84,8 @@ img[alt="pinoy-polvoron-logo"]{
     letter-spacing: 0rem;
 }
 
-.container2 .content button{
+.container2 .content .button{
+    text-align: center;
     width: 40%;
 }
 
