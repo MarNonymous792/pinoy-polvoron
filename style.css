@@ -28,7 +28,6 @@ img[alt="pinoy-polvoron-logo"]{
 .content h3{
     font-size: 2rem;
     line-height: 3rem;
-    letter-spacing: 0.5rem;
 }
 
 #polvo-box{
@@ -83,7 +82,6 @@ img[alt="pinoy-polvoron-logo"]{
 }
 .container2 .content h3{
     font-size: 1.5rem;
-    letter-spacing: 0rem;
 }
 
 .container2 .content .button{
@@ -159,6 +157,8 @@ img[alt="pinoy-polvoron-logo"]{
     align-items: center;
     border-radius: 10px;
     transition: 0.5s ease-out;
+    cursor: pointer;
+
 }
 
 .card .name{
@@ -166,7 +166,6 @@ img[alt="pinoy-polvoron-logo"]{
 }
 .card i{
     font-size: 1.3rem;
-    cursor: pointer;
 }
 
 .cards .card:hover{
@@ -284,4 +283,112 @@ img[alt="pinoy-polvoron-logo"]{
     display: flex;
     width: 80%;
    gap: 30px;
+}
+
+.icons a{
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    height: 10vh;
+    background-color: #dcc7a8;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar .title{
+    font-style: oblique;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 20px;
+    flex:5;
+    letter-spacing: .3rem;
+
+}
+
+
+.navbar img{
+    margin-left: 20px;
+    height: 10vh;
+}
+
+.buttons{
+    justify-content: center;
+    flex:5;
+    display: flex;
+    gap: 3rem;
+}
+
+.buttons .navbtn{
+    padding:4px 16px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    letter-spacing: .3rem;
+    transition: 0.3s ease;
+}
+
+.navbtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbtn:hover{
+    background-color: #dba65b;
+    
+}
+
+.container6{
+    height: 90vh;
+    background: linear-gradient(rgba(220, 199, 168, 0.5),rgba(220, 199, 168, 0.5)),url('./Cellophane-Wrapped.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container6 .content,.container7 .content,.container8 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(219, 166, 91, 0.5);
+    border-radius: 50px;
+}
+
+.container6 p, .container7 p,.container8 p{
+    padding:50px;
+    font-size: 1.5rem;
+}
+.container7{
+    background: linear-gradient(rgba(220, 199, 168, 0.5),rgba(220, 199, 168, 0.5)),url('./polvoron-wrapped-in-colorful-plastic-free-photo.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+}
+.container8{
+    height: 80vh;
+    background: linear-gradient(rgba(220, 199, 168, 0.5),rgba(220, 199, 168, 0.5));
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container8 h3{
+    letter-spacing: .3rem;
+}
+.container8 ul{
+    padding-left: 0;
+    font-size: 1.3rem !important;
+    font-weight: 300;
+    letter-spacing: .3rem;
+    font-size:  1rem;
+    list-style-type: none;
+    text-align: center;
+    text-indent: none;
+    line-height: 2rem;
+    padding-bottom: 50px;
 }
